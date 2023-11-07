@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Experiment 4</title>
+</head>
+<body>
+<script>
+const string1 = "Apples";
+const string2 = "Mango";
+document.write("String 1: " + string1 + "<br>");
+document.write("String 2: " + string2 + "<br>");
+document.write("Compare using equality operator (===): " + (string1 === string2) + "<br>");
+document.write("Comparing length of the strings: " + (string1.length > string2.length) + "<br>");
+document.write("Compare using localeCompare() method: " + (string1.localeCompare(string2)) + "<br>");
+document.write("<hr style='border-top: dashed #B9B4C7' width = '400' size = '3' align = 'left'>Name: Atharva More");
+</script>
+</body>
+</html>

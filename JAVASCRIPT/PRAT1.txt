@@ -1,0 +1,28 @@
+
+<html>
+<body>
+<script language="javascript" type="text/javascript">
+document.write("<strong>Name: Atharva More</strong>");
+document.write("<br>");
+document.write("<strong>Roll No.: BETA35</strong>");
+document.write("<br>");
+
+var pi = 3.14;
+var r = 15;
+var l = 10;
+var w = 14;
+var b = 18;
+var h = 12;
+
+document.write("Area of Circle is "+pi*r*r);
+document.write(" m^2");
+document.write("<br>");
+document.write("Area of Rectangle is " + l*w);
+document.write(" m");
+document.write("<br>");
+document.write("Area of Triangle is " + (b*h)/2);
+document.write(" sq.m");
+document.write("<br>");
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+
+<html>
+<body>
+
+<script language="javascript" type="text/javascript">
+
+document.write("<strong>Name: Atharva More</strong>");
+document.write("<br>");
+document.write("<strong>Roll No.: BETA35</strong>");
+document.write("<br>");
+
+
+var num = parseInt(prompt("Enter a Integer: "));
+var range = parseInt(prompt("Enter a Range: "));
+
+//Creating a Multiplication Table
+for(let i=1;i<=range;i++){
+	var res = i * num;
+	document.write(num + " * "+i+" = " + res);
+	document.write("<br>");
+}
+
+</script>
+</body>
+</html>

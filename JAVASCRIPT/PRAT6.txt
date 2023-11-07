@@ -1,0 +1,19 @@
+const arr = ["Apple", "Banana", "Mango", "Litchi", "Guava"];
+console.log(arr);
+console.log("After sort(): " + arr.sort());
+console.log("Removed fruit using pop(): " + arr.pop());
+console.log("Removed fruit using shift(): " + arr.shift());
+console.log("Array includes Guava: " + arr.includes("Guava"));
+console.log("Index of Apple: " + arr.indexOf("Apple"));
+console.log("Index of Banana: " + arr.indexOf("Banana"));
+console.log('Add "Watermelon" using push(): ' + arr.push("Watermelon"));
+console.log('Add "Cherry" using push(): ' + arr.unshift("Cherry"));
+function emptyArr(arr) {
+for (let i = arr.length; i >= 0; i--) {
+arr.pop();
+}
+return arr;
+}
+console.log(arr);
+console.log("Final Array: " + emptyArr(arr));
+console.log("Name: Devaansh Kakeri");
